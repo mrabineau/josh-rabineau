@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div id="App">
-          <button type="button" className="btn btn-default" id="b1"> <Link to="/main"> Enter </Link> </button>
+          <a id="button1"> <Link to="/main"> Enter </Link> </a>
       </div>
     );
   }
