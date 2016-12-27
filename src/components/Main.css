@@ -1,0 +1,17 @@
+#Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin: 0 auto;
+}
+
+#name {
+  position: static;
+}
+
+.photo {
+  max-width: 30%;
+  max-height: 30%;
+  margin: 20px;
+}
