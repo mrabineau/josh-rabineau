@@ -1,23 +1,38 @@
 #App{
+/* background-color: #C0C0C0;
+*/
+  justify-content: center;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 
 }
 
-#appContainer {
+/*#appContainer {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-/*    background-color: #FACADE;
-*/
-/*    background-image: url('/images/josh-portfolio/MERON2.jpg');
-*/  background-repeat: no-repeat;
+    background-color: #C0C0C0;
+    background-image: url('http://i.giphy.com/3o6gE2n49n4REAqlFe.gif');
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 60%;
+    background-size: 0%;
     margin: 10px;
 }
-
-#meron {
+*/
+/*#meron {
   position: relative;
   margin-left: 20%;
   box-shadow: 8px 8px 10px #aaa;
+}
+*/
+
+.particles-js {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
 }
 
 #button1 {
