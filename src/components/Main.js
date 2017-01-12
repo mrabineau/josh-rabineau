@@ -11,7 +11,10 @@ class Main extends Component {
       "meron1.jpg",
       "sp3.JPG",
       "CELLS1.jpg",
-      "HANDS1.jpg"
+      "HANDS1.jpg",
+      "HOUSE1.jpg",
+      "oldjosh1.jpg",
+      "ORIGAMI10.jpg"
       ] }
   }
   render (){
@@ -23,7 +26,7 @@ class Main extends Component {
       <div id="Main">
           <div id="imagediv">
             <h1 id="name"> Josh Rabineau </h1>
-            <div>
+            <div id="pixdiv">
                   {allPix}
             </div>
           </div>

@@ -17,3 +17,9 @@
   max-height: 30%;
   margin: 20px;
 }
+
+#pixdiv {
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 20%;
+}
