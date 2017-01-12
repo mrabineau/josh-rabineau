@@ -9,7 +9,9 @@ class Main extends Component {
       images: [
       "coll1.jpg",
       "meron1.jpg",
-      "sp3.JPG"
+      "sp3.JPG",
+      "CELLS1.jpg",
+      "HANDS1.jpg"
       ] }
   }
   render (){

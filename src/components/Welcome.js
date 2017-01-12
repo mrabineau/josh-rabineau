@@ -8,7 +8,7 @@ class Welcome extends Component {
   render () {
     return (
         <div id="Welcome">
-          <h1 id="banner"> Joshua Stephan Rabineau </h1>
+          <h1 id="banner"> Josh Rabineau </h1>
               <a id="enter"><Link to="/main" id="ent"> Enter </Link> </a>
         </div>
       );
