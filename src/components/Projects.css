@@ -1,0 +1,11 @@
+#projects {
+  display: flex;
+  align-content: center;
+}
+
+
+.allImages {
+  height: 40px;
+  width: 35px;
+  margin-left: 25%;
+}
