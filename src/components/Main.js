@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import App from '../App.js';
+import Nav from './Nav.js';
 import './Main.css';
 
 class Main extends Component {
@@ -26,9 +27,10 @@ class Main extends Component {
       <div id="Main">
           <div id="imagediv">
             <h1 id="name"> Josh Rabineau </h1>
-            <div id="pixdiv">
-                  {allPix}
-            </div>
+              <Nav />
+                <div id="pixdiv">
+                      {allPix}
+                </div>
           </div>
       </div>
     )

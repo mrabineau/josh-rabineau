@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Welcome from './components/Welcome.js';
 // import { Link } from 'react-router'
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 
 
 class App extends Component {

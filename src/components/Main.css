@@ -9,7 +9,9 @@
 
 #name {
   justify-content: center;
-  margin-left: 40%;
+  margin-left: 37%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
 }
 
 .photo {
@@ -20,6 +22,6 @@
 
 #pixdiv {
   align-items: center;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-right: 20%;
 }
