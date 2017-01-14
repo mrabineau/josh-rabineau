@@ -1,11 +1,24 @@
 #projects {
   display: flex;
-  align-content: center;
+/*  align-content: center;*/
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
+   margin-left: 30%;
 }
 
 
-.allImages {
-  height: 40px;
-  width: 35px;
-  margin-left: 25%;
+
+.pix {
+  height: 800px;
+  width: 550px;
+
 }
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+
+}
+
