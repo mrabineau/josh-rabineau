@@ -52,11 +52,16 @@ class Projects extends Component {
 
 
   render () {
-      const cellpix = this.state.cells.map((photo) => {
-        const root = `/images/josh-portfolio/${photo}`
-        return <img  className="pix" src={root} alt="p" key={photo} />
+     const cellpix = this.state.cells.map((photo) => {
+      const root = `/images/josh-portfolio/${photo}`
+      return <img  className="pix" src={root} alt="p" key={photo} />
       })
       const housepix = this.state.house.map((photo) => {
+      const root = `/images/josh-portfolio/${photo}`
+      return <img className="pix" src={root} alt="p" key={photo} />
+    })
+
+      const collagepix = this.state.collage.map((photo) => {
       const root = `/images/josh-portfolio/${photo}`
       return <img className="pix" src={root} alt="p" key={photo} />
     })
@@ -68,6 +73,10 @@ class Projects extends Component {
             <div id="housepix" className="allImages">
               <h1 className="heading"> House </h1>
                 {housepix}
+            </div>
+            <div id="collagepix" className="allImages">
+              <h1 className="heading"> Collage </h1>
+                {collagepix}
             </div>
         </div>
       </div>

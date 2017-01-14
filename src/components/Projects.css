@@ -5,14 +5,14 @@
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-content: space-between;
-   margin-left: 30%;
+   margin-left: 35%;
 }
 
 
 
 .pix {
-  height: 800px;
-  width: 550px;
+  height: 700px;
+  width: 500px;
 
 }
 
@@ -22,3 +22,7 @@
 
 }
 
+#collagepix {
+  height: 700px;
+  width: 700px;
+}
