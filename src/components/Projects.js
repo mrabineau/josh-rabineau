@@ -65,6 +65,11 @@ class Projects extends Component {
       const root = `/images/josh-portfolio/${photo}`
       return <img className="pix" src={root} alt="p" key={photo} />
     })
+
+      const handspix = this.state.hands.map((photo) => {
+      const root = `/images/josh-portfolio/${photo}`
+      return <img className="pix" src={root} alt="p" key={photo} />
+    })
     return (
       <div id="projects">
         <div id="cellpix" className="allImages">
@@ -77,6 +82,10 @@ class Projects extends Component {
             <div id="collagepix" className="allImages">
               <h1 className="heading"> Collage </h1>
                 {collagepix}
+            </div>
+            <div id="handspix" className="allImages">
+              <h1 className="heading"> Hands </h1>
+                {handspix}
             </div>
         </div>
       </div>
