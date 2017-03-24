@@ -5,29 +5,47 @@
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-content: space-between;
-   margin-left: 35%;
+   margin-left: 30%;
 }
 
 
 .pix {
   height: 700px;
   width: 500px;
+  margin: 5%;
 
 }
 
 .heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
+  margin-left: 25%;
 
 }
 
 #collagepix {
   height: 700px;
   width: 700px;
-/*  margin-bottom: 30%;
-*/}
-
-/*#handspix {
-  margin-top: 100%;
 }
-*/
+
+@media (max-width: 720px) {
+  .pix {
+    height: 80%;
+    width: 40%;
+    margin-right: 10%;
+   }
+
+  #collagepix {
+    margin-right: 25%;
+    height: 110%;
+    width: 70%;
+  }
+
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-left: 10%;
+
+}
+}

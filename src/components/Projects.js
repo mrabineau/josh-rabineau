@@ -15,24 +15,24 @@ class Projects extends Component {
 
       <div id="projects">
         <div>
-        <div id="cellpix" className="allImages">
-          <h1 className="heading" id="c"> Cells </h1>
-            <Cells />
+           <div id="cellpix" className="allImages">
+            <h1 className="heading" id="c"> Cells </h1>
+              <Cells />
             </div>
-              <div id="housepix" className="allImages">
-                <h1 className="heading"> House </h1>
-                  <House />
-               </div>
-                     <div id="handspix" className="allImages">
-                        <h1 className="heading"> Hands </h1>
-                          <Hands />
-                     </div>
-                      <div id="collagepix" className="allImages">
-                        <h1 className="heading"> Collage </h1>
-                         <Collage />
-                        </div>
+            <div id="housepix" className="allImages">
+              <h1 className="heading"> House </h1>
+                <House />
+            </div>
+            <div id="handspix" className="allImages">
+                <h1 className="heading"> Hands </h1>
+                  <Hands />
+             </div>
+             <div id="collagepix" className="allImages">
+                <h1 className="heading"> Collage </h1>
+                  <Collage />
+              </div>
 
-            </div>
+          </div>
       </div>
       )
   }

@@ -22,7 +22,7 @@ class Collage extends Component {
   render () {
       const collagepix = this.state.collage.map((photo) => {
       const root = `/images/josh-portfolio/${photo}`
-      return <img className="pix" src={root} alt="p" key={photo} />
+      return <img id="collagepix" className="pix" src={root} alt="p" key={photo} />
     })
     return (
         <div>
